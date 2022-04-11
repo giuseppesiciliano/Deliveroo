@@ -1,0 +1,129 @@
+.dishes-title {
+    font-weight: 600;
+    text-align: center;
+}
+
+.food-card {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    min-height: 500px;
+    box-shadow: 1px 1px 10px 2px #c7c7c7;
+
+    .card-title {
+        font-weight: 600;
+    }
+
+    .btn-ed {
+    padding: 8px 15px;
+    border: unset;
+    border-radius: 8px;
+    color: white;
+    z-index: 1;
+    background: #00ccbc;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+        }
+        
+    .btn-ed::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 8px;
+    background-color: #b2e155;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+    }
+    
+    .btn-ed:hover {
+    color: white;
+    }
+    
+    .btn-ed:hover::before {
+    width: 100%;
+    }
+
+    .btn-ca {
+    padding: 8px 15px;
+    border: unset;
+    border-radius: 8px;
+    color: white;
+    z-index: 1;
+    background: #00ccbc;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+    }
+    
+    .btn-ca::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 8px;
+    background-color: #d85757;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+    }
+    
+    .btn-ca:hover {
+    color: white;
+    }
+    
+    .btn-ca:hover::before {
+    width: 100%;
+    } 
+
+    .img-plus {
+        width: 50%;
+    }
+
+    .green {
+        color: #b2e155;
+        font-size: 20px;
+    }
+
+    .red {
+        color: #d85757;
+        font-size: 20px;
+    }
+           
+}
+
+.food-card-empty {
+    background-color: #eeeeee;
+    border: 2px dashed gray;
+}
+
+.btn-back-2 {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px){
+    .food-card {
+        width: 500px;
+
+        .img-plus {
+            width: 30%;
+        }
+    }
+}

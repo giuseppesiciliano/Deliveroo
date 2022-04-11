@@ -1,0 +1,58 @@
+
+.dashboard{
+    padding: 30px;
+
+    .welcome {
+        font-size: 22px;
+        color: #00ccbc;
+        font-weight: 600;
+    }
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.card-info-res {
+    box-shadow: 1px 1px 10px 2px #c7c7c7;
+    border-radius: 10px;
+
+    .user_info {
+        padding: 30px;
+    
+        .img_account{
+            border-radius: 10px;
+            object-fit: cover;
+            object-position: top;
+            width: 100%;
+            // height: ;
+        }
+    
+        ul {
+            padding: 20px 0;
+            li {
+                font-size: 18px;
+                font-weight: 600;
+                list-style: none;
+                margin: 10px 0;
+            }
+
+            .ad-name {
+                font-size: 23px;
+            }
+        }
+    }
+}
+.card-menu-rt {
+    box-shadow: 1px 1px 10px 2px #c7c7c7;
+    border-radius: 10px;
+}
+
+.ok-page {
+    padding-top: 250px;
+    padding-bottom: 400px;
+
+    .green-2 {
+        color: #bbe567;
+    }
+}

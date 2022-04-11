@@ -1,0 +1,70 @@
+footer {
+    min-height: 400px;
+    color: white;
+    background-color: #2e3333;
+    width: 100%;
+    // flex-shrink: 0;
+
+    .nav-footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-bottom: 25px;
+
+        .footer-card {
+            padding: 25px 20px;
+            background-color: #434848;
+            border-radius: 5px;
+            height: 100%;
+            margin-bottom: 10px;
+
+            h5 {
+                font-weight: 600;
+            }
+
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+
+                a {
+                    color: white;
+
+                    &:hover {
+                        color: #00ccbc;
+                        text-decoration: none;
+                    }
+                }
+            }
+
+            .app-store {
+                width: 150px;
+            }
+        }
+    }
+
+    .social-channels {
+        display: flex;
+        justify-content: space-between;
+
+        ul {
+            padding-left: 0;
+
+            li {
+                display: inline;
+                margin-right: 25px;
+                cursor: pointer;
+
+                i {
+                    font-size: 30px;
+                    color: white;
+                }
+            }
+        }
+
+        p {
+            color: #4f5555;
+            font-size: 18px;
+        }
+    }
+}

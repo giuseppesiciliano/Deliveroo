@@ -1,0 +1,39 @@
+header {
+    // flex-shrink: 0;
+    background-color: #00ccbc;
+
+    .logo {
+        width: 60%;
+    }
+
+    .navbar-light 
+    .navbar-nav 
+    .nav-link {
+        color: #440063;
+        font-size: 18px;
+        font-weight: 600;
+
+
+        &.left:hover {
+            color: whitesmoke;
+        }
+
+        &.right:hover {
+            color: whitesmoke;
+        }
+
+    }
+    .dropdown-menu {
+        
+        .dropdown-item {
+            font-size: 18px;
+            font-weight: 600;
+            
+        }
+    }
+
+    .btn {
+        min-width: 170px;
+        max-width: 300px;
+    }
+}

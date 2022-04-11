@@ -1,0 +1,148 @@
+/* homepage */
+.jumbotron-del {
+    background-image: url("/images/jumbotron-back.svg");
+    min-height: 300px;
+    max-height: 500px;
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+
+    img {
+        width: 87%;
+        margin-top: 20px;
+    }
+
+    span.title-jumbo {
+        font-family: sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+        color: #440063;
+        // margin: 125px 0 0;
+    }
+
+}
+
+.searchbar {
+    margin: 80px 0 50px;
+    padding:50px;
+    .form-control {
+        width: 300px;
+        height: 50px;
+    }
+    .btn{
+        background-color: #00ccbc ;
+        color: #440063;
+        font-size: 17px;
+        height: 50px;
+        width: 120px;
+    }
+}
+
+.check {
+    // margin: 10px;
+    cursor: pointer;
+}
+
+.check input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.check span {
+    padding: 7px 12px;
+    width: 100%;
+    font-weight: 600;
+    color: #4e4e4e;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid #00ccbc;
+    border-radius: 5px;
+    &:hover {  
+    width: 100%;
+    color: #00ccbc;
+    // margin-left: -2px;
+    }
+}
+
+.check input:checked+span {
+    color: white;
+    border: unset;
+    padding: 9px 14px;
+    margin-left: -2px;
+    background-color: #00ccbc;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.user {
+    box-shadow: 1px 1px 10px 2px #c7c7c7;
+    background-color: white;
+    width: 300px;
+    min-height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: left;
+    transition: 0.2s ease-in-out;
+
+
+    &:hover {
+        box-shadow: 1px 1px 10px 2px #c7c7c7;
+        border-radius: 10px;
+        transform: scale(0.95);
+        transition: 0.2s ease-in-out;
+    }
+  
+    a {
+        text-decoration: none;
+        color: #4e4e4e;
+    }
+    .image {
+
+        height: 200px;
+        background-color: #dfdfdf;
+
+        img {
+            border-radius: 10px 10px 0 0;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .rest-info {
+        min-height: 150px;
+
+        h4 {
+            font-weight: 600;
+        }
+    }
+}
+
+.page {
+    padding-bottom: 40px;
+}
+
+@media screen and (max-width: 992px){
+    .jumbotron-del {
+    
+        img {
+            width: 100%;
+            margin-top: 20px;
+        }
+    
+        span.title-jumbo {
+            font-size: 25px;
+            // margin-top: 70px;
+            margin-left: -20px;
+        }
+    }
+
+    .user {
+        width: 500px;
+    }
+}

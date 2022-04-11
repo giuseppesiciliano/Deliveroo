@@ -1,0 +1,270 @@
+.back-info {
+    background-color: white;
+    box-shadow: 1px 1px 10px 2px #c7c7c7;
+    border-radius: 10px;
+  }
+
+  .categories-circle {
+    color: #00ccbc;
+  }
+
+  
+  
+  // Info
+  .info {
+    font-size: 16px;
+
+    h1 {
+      font-weight: 600;
+    }
+    
+    i {
+      color: #00ccbc;
+    }
+  }
+  
+  .img-user {
+    img {
+      width: 100%;
+      object-fit: cover;
+      border-radius: 5px;
+      box-shadow: 1px 1px 7px 5px #c7c7c7;
+    }
+  }
+  
+  .section {
+    padding-top: 10px;
+  
+    p {
+      color: grey;
+    }
+  }
+
+  .dish {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 2px #c7c7c7;
+    width: 100%;
+
+    .image {
+        img {
+            width: 100%;
+            border-radius: 5px;
+            object-fit: cover;
+        }
+    }
+        
+    h4 {
+        font-weight: bolder;
+        padding-top: 13px;
+    }
+
+    .price {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .buttons {
+    
+        .quantity {
+            text-align: center;
+            font-size: 21px;
+            font-weight: bold;
+        
+            i {
+                color: #00ccbc;
+                font-size: 1.2rem;
+                padding: 15px 30px;
+                cursor: pointer;
+            }
+        }
+    }
+
+  .btn-add {
+  padding: 8px 15px;
+  border: unset;
+  border-radius: 8px;
+  color: #45364d;
+  z-index: 1;
+  background: #00ccbc;
+  position: relative;
+  font-weight: 1000;
+  font-size: 15px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 250ms;
+  overflow: hidden;
+  }
+
+  .btn-add::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 8px;
+  background-color: #bbe567;
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 250ms
+  }
+
+  .btn-add:hover {
+  color: #440063;
+  }
+
+  .btn-add:hover::before {
+  width: 100%;
+  }   
+}
+
+// Menu and cart icons
+.restaurant-icon{
+  font-size: 18px;
+}
+
+// Carrello
+
+.cart-headline {
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 10px 2px #c7c7c7;
+    width: 100%;
+    
+    // quando vuoto
+    .checkout-not {
+        background-color: lightgrey;
+        border-radius: 5px;
+        border: 1px solid lightgrey;
+        color: white;
+        width: 80%;
+        padding: 10px;
+        cursor: not-allowed;
+    }
+
+    h5 {
+        color: grey;
+        font-size: 1rem;
+        padding-top: 20px;
+    }
+
+    // Pieno
+    .checkout {
+        width: 80%;
+        padding: 10px;
+    }
+
+  // .btn-check {
+  //   padding: 8px 15px;
+  //   border: unset;
+  //   border-radius: 8px;
+  //   color: #440063;
+  //   z-index: 1;
+  //   background: #00ccbc;
+  //   position: relative;
+  //   font-weight: 1000;
+  //   font-size: 17px;
+  //   -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  //   box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  //   transition: all 250ms;
+  //   overflow: hidden;
+  //   }
+    
+  //   .btn-check::before {
+  //   content: "";
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   height: 100%;
+  //   width: 0;
+  //   border-radius: 8px;
+  //   background-color: #bbe567;
+  //   z-index: -1;
+  //   -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  //   box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  //   transition: all 250ms
+  //   }
+    
+  //   .btn-check:hover {
+  //   color: #440063;
+  //   }
+    
+  //   .btn-check:hover::before {
+  //   width: 100%;
+  //   }
+    .item-test {
+      margin-bottom: 10px;
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .quantity {
+      font-size: 1rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      span {
+        display: inline-block;
+        width: 20px;
+      }
+      i {
+        cursor: pointer;
+        padding: 8px;
+        font-size: 0.9rem;
+          &:hover {
+            color: gray;
+          }
+        }
+    }
+}
+.card-shadow {
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 2px #c7c7c7;
+}
+
+    .name {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      width: 179px;
+      padding: 0 10px;
+      text-align: left;
+    }
+
+    .total {
+      padding-right: 8px;
+      white-space: nowrap;
+    }
+
+    .trash {
+      cursor: pointer;
+    }
+
+
+@media screen and (max-width: 992px) { 
+    .title {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) { 
+    .info {
+        text-align: center;
+    }
+    
+    .img-user {
+        text-align: center;
+        img {
+          max-width: 70%;
+        }
+    }
+
+    .title {
+        text-align: center;
+    }
+}

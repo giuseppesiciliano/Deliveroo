@@ -1,0 +1,36 @@
+
+.login-card-tp {
+    padding-top: 200px;
+    padding-bottom: 400px;
+
+    .login-name {
+        text-align: center;
+        font-weight: 600;
+        color: black;
+        font-size: 20px;
+    }
+    .login-card-bt{
+        background-color: #00ccbc;
+        border-color: #00ccbc;
+        border-radius: 10px;
+        font-size: 18px;
+        box-shadow: 1px 1px 10px 2px #c7c7c7;
+    }
+    .btn-login {
+        background-color: #d0eb99;
+        border-color: #d0eb99;
+        width: 170px;
+        color: #440063;
+        font-size: 18px;
+        font-weight: 600;
+        &:hover {
+            background-color: #d0eb99;
+            border-color: #d0eb99;
+            color: white;
+        }
+    }
+    .btn-forgot {
+        color: white;
+        font-size: 16px;
+    }
+}
